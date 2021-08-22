@@ -24,35 +24,41 @@ body {
     padding: .5em;
     border: 2px solid white;
     background-color: #171717;
-    width: 25%;
+    block-size: fit-content;
+    width: fit-content;
     min-width: 500px;
-    left: 10rem;
-    top: 25rem;
+    left: 10vmin;
+    top: 25vmin;
     z-index: 1000;
 }
 
 .header-text {
     position: relative;
     text-align: left;
-    font-size: 3em;
+    font-size: 12vmin;
     font-variant-caps: all-small-caps;
 }
 
 .subheader {
-    font-size: 1.5em;
+    font-size: 5vmin;
     text-align: left;
 }
 
 .section {
     position: absolute;
-    padding: .5em;
+    padding: .5rem;
     border: 2px solid white;
     background-color: #171717;
-    width: 25%;
+    block-size: fit-content;
+    width: fit-content;
     min-width: 500px;
-    left: 10rem;
-    top: 35rem;
+    left: 10vmin;
+    top: 50vmin;
     z-index: 1000;
+}
+#submit {
+    background-color: white;
+    color:#171717;
 }
 
 #particles-js {
