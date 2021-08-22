@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 
 }
 
@@ -20,31 +21,38 @@ body {
 
 .header {
     position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    z-index:1000;
+    padding: .5em;
+    border: 2px solid white;
+    background-color: #171717;
+    width: 25%;
+    min-width: 500px;
+    left: 10rem;
+    top: 25rem;
+    z-index: 1000;
 }
 
 .header-text {
     position: relative;
-    color: white;
-    text-align: center;
-    font-size: 5em;
+    text-align: left;
+    font-size: 3em;
     font-variant-caps: all-small-caps;
 }
 
 .subheader {
-    font-size: 2em;
+    font-size: 1.5em;
+    text-align: left;
 }
 
 .section {
+    position: absolute;
+    padding: .5em;
+    border: 2px solid white;
     background-color: #171717;
-    color:aliceblue;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    width: 25%;
+    min-width: 500px;
+    left: 10rem;
+    top: 35rem;
+    z-index: 1000;
 }
 
 #particles-js {
