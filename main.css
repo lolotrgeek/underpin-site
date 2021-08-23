@@ -5,6 +5,13 @@
 
 }
 
+ul {
+    list-style: none;
+}
+li {
+    margin: .5em;
+}
+
 html,
 body {
     margin: 0;
@@ -21,41 +28,60 @@ body {
 
 .header {
     position: absolute;
-    padding: .5em;
+    padding: 2em;
     border: 2px solid white;
     background-color: #171717;
     block-size: fit-content;
     width: fit-content;
-    min-width: 500px;
     left: 10vmin;
-    top: 25vmin;
+    top: 15vmin;
     z-index: 1000;
 }
 
 .header-text {
     position: relative;
     text-align: left;
-    font-size: 12vmin;
+    font-size: 8vmin;
     font-variant-caps: all-small-caps;
 }
 
 .subheader {
-    font-size: 5vmin;
+    font-size: 3vmin;
     text-align: left;
+    font-variant-caps: all-small-caps;
+
 }
 
 .section {
     position: absolute;
-    padding: .5rem;
+    padding: 2rem;
     border: 2px solid white;
     background-color: #171717;
     block-size: fit-content;
     width: fit-content;
-    min-width: 500px;
-    left: 10vmin;
-    top: 50vmin;
+    font-size: 1.5vmin;
+    
     z-index: 1000;
 }
+.section p {
+    font-variant-caps: all-small-caps;
+    font-size: 2vmin;
+}
+
+.section-1 {
+    left: 10vmin;
+    top: 36vmin;
+}
+.section-2 {
+    left: 43vmin;
+    top: 36vmin;
+}
+
+.section-3 {
+    left: 10vmin;
+    top: 60vmin;
+}
+
 #submit {
     background-color: white;
     color:#171717;
