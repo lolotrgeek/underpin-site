@@ -30,8 +30,6 @@ body {
     padding: 2em;
     border: 2px solid white;
     background-color: #171717;
-    block-size: fit-content;
-    width: fit-content;
     margin-top:5vmin;
 }
 
@@ -53,8 +51,6 @@ body {
     margin-top:5vmin;
     border: 2px solid white;
     background-color: #171717;
-    block-size: fit-content;
-    width: fit-content;
     font-size: 1.5vmin;
 }
 
