@@ -25,9 +25,10 @@
             </div>
             <div class="row">
                 <div class="section col-md-5 offset-md-2">
-                    <form method="POST">
+                    <form method="POST" data-netlify="true">
                         <p>Be the first to join.</p>
-                        Email: <input name="email"></input>
+                        <label for="email">Email:</label> 
+                        <input type="email" name="email" id="email"></input>
                         <button id="submit" type="submit">Submit</button>
                     </form>
                 </div>
