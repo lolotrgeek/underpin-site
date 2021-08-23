@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
     /* overflow: hidden; */
+    background-color: #171717;
 
 }
 
@@ -22,11 +23,17 @@ li {
     margin: .5em;
 }
 
+#main {
+    position: relative;
+    z-index: 2;
+
+}
+
 .header {
     padding: 1em;
     border: 2px solid white;
     background-color: #171717;
-    margin-top:5vmin;
+    margin-top: 5vmin;
 }
 
 .header-text {
@@ -43,7 +50,7 @@ li {
 
 .section {
     padding: 1em;
-    margin-top:5vmin;
+    margin-top: 3vmin;
     border: 2px solid white;
     background-color: #171717;
 }
@@ -53,28 +60,35 @@ li {
 }
 
 .section li {
-    font-size: 1em ;
+    font-size: 1em;
 }
 
-.section p {
+.footer {
+    padding: 1em;
+    margin-top: 3vmin;
+    border: 2px solid white;
+    background-color: #171717;
+}
+
+.footer p {
     font-size: .8em;
 }
 
 #submit {
     background-color: white;
-    color:#171717;
+    color: #171717;
 }
 
 #particles-js {
     position: absolute;
-    top:0;
+    top: 0;
     width: 100%;
     height: 100%;
     background-color: #171717;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    z-index:-1;    
+    z-index: 1;
 }
 
 
