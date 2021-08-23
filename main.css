@@ -23,6 +23,10 @@ li {
     margin: .5em;
 }
 
+input {
+    color:#171717;
+}
+
 #main {
     position: relative;
     z-index: 2;
