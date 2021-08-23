@@ -56,6 +56,10 @@ li {
     font-size: 1em ;
 }
 
+.section p {
+    font-size: .8em;
+}
+
 #submit {
     background-color: white;
     color:#171717;
