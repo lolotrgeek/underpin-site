@@ -5,55 +5,51 @@
 
 }
 
-ul {
-    list-style: none;
-}
-li {
-    margin: .5em;
-}
-
 html,
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
+
 }
 
-#main {
-    margin: 0;
-    background-color: #171717;
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+    margin: .5em;
 }
 
 .header {
-    padding: 2em;
+    padding: 1em;
     border: 2px solid white;
     background-color: #171717;
     margin-top:5vmin;
 }
 
 .header-text {
-    position: relative;
     text-align: left;
-    font-size: 5em;
     font-variant-caps: all-small-caps;
+    font-size: 4em;
 }
 
 .subheader {
-    font-size: 2em;
     text-align: left;
     font-variant-caps: all-small-caps;
 
 }
 
 .section {
+    padding: 1em;
     margin-top:5vmin;
     border: 2px solid white;
     background-color: #171717;
 }
 
-.section p {
+.section h5 {
     font-variant-caps: all-small-caps;
-    font-size: 1.2em;
 }
 
 .section li {
