@@ -78,6 +78,11 @@ input {
     font-size: .8em;
 }
 
+.footer a {
+    text-decoration: none;
+    color: #171717;
+}
+
 #submit {
     background-color: white;
     color: #171717;
