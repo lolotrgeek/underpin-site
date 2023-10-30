@@ -1,8 +1,12 @@
+@font-face {
+    font-family: SquareHead;
+    src: url(SFSquareHead.ttf);
+}
 * {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Orbitron", "sans-serif";
     color: white;
-
+    letter-spacing: .2rem;
 }
 
 html,
@@ -34,6 +38,7 @@ input {
 }
 
 .header {
+    font-family: "SquareHead", "sans-serif";
     padding: 1em;
     border: 2px solid white;
     background-color: #171717;
